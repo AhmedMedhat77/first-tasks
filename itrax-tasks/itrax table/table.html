@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      table,
+      td {
+        border: 1px solid #333;
+      }
+      td {
+        text-align: center;
+      }
+      .logo,
+      .name {
+        font-size: 50px;
+        font-family: sans-serif;
+        font-style: italic;
+        font-weight: 500;
+      }
+      .name {
+        color: gold;
+      }
+      .colored:nth-child(1) {
+        background-color: pink;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <td align="center" class="logo" rowspan="2">Logo</td>
+        <td colspan="3" align="center" class="name">Company Name</td>
+      </thead>
+      <tr class="colored">
+        <td><a href="#">Name</a></td>
+        <td><a href="#">about</a></td>
+        <td><a href="#">galary</a></td>
+        <td><a href="#">contact us</a></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td colspan="3">img</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>img3</td>
+        <td colspan="2">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Consequatur suscipit error assumenda laborum tempore adipisci!
+            Commodi sit cum rem labore?
+          </p>
+        </td>
+      </tr>
+      <tfoot>
+        <td colspan="4" align="center">Lorem ipsum dolor sit amet.</td>
+      </tfoot>
+    </table>
+  </body>
+</html>

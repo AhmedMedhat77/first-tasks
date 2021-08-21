@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+/* resets */
+
+/* styling */
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(221, 221, 221);
+  display: flex;
+  align-items: center;
+}
+
+.blue-div {
+  background-color: rgb(83, 83, 255);
+  position: relative;
+  width: 800px;
+  height: 70vh;
+}
+
+.img-contianer img {
+  position: absolute;
+left: 70px;
+top: 40px;
+  width: 100%;
+  height: 100%;
+  box-shadow: 2px 2px 2px 1px rgb(189, 187, 187);
+}
+
+.contnent {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.title {
+  width: 500px;
+}
+.title span {
+  color: rgb(77, 77, 77);
+  font-weight: bold;
+}
+.title h1 {
+  color: #fff;
+  white-space: wrap;
+  font-size: 50px;
+  font-weight: bold;
+}
+.title p {
+  padding-top: 40px;
+}
+
+.contnent button {
+  margin-top: 40px;
+  padding: 12px 15px;
+  color: #fff;
+  background-color: rgb(83, 83, 255);
+  border-radius: 20px;
+  font-size: 20px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.contnent button:hover {
+  background-color: transparent;
+  color: rgb(83, 83, 255);
+  border: rgb(83, 83, 255) solid 1px;
+}
