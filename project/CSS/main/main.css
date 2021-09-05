@@ -1,0 +1,29 @@
+/* to import css file write @import then url() never forget the  ';' */
+
+/* obstracts */
+@import url(../obstracts/variables.css);
+
+/*   vendors */
+@import url(../vendors/font-awesome.min.css);
+/*        base               */
+@import url(../base/reset.css);
+
+/*          lay out         */
+@import url(../layout/navbar.css);
+
+/*          components       */
+@import url(../components/hero-section.css);
+@import url(../components/logos.css);
+@import url(../components/features.css);
+@import url(../components/services.css);
+@import url(../components/work.css);
+/*         pages                  */
+
+/* fonts */
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,600,700,800&display=swap");
+@import url(../vendors/fonts.css);
+/* fontawsome CDN */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css");
+/* Roboto font */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap");
