@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: rgb(37, 49, 63);
+        color: #fff;
+        font-weight: 500;
+        font-size: 40px;
+        text-align: center;
+        flex-direction: column;
+      }
+      input {
+        outline: none;
+        border: none;
+        width: 300px;
+        height: 50px;
+        border-radius: 30px;
+        font-size: 40px;
+        color: #333333;
+        text-align: center;
+        display: block;
+      }
+      button {
+        padding: 15px 30px;
+        outline: none;
+        border: #fff 1px solid;
+        border-radius: 20px;
+        color: #fff;
+        background: transparent;
+        font-size: 30px;
+        margin-top: 20px;
+        justify-content: center;
+      }
+      select {
+        padding: 15px 30px;
+        outline: none;
+        border: #fff 1px solid;
+        border-radius: 20px;
+        color: #fff;
+        background: #333333;
+        font-size: 30px;
+        display: block;
+
+        margin: 20px auto;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="#">
+      <label for="">First Number :</label>
+      <input type="text" name="" id="x" />
+
+      <label for="">Second Number :</label>
+      <input type="text" id="y" />
+      <select id="o">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+      </select>
+      <button type="submit" id="btn" onclick="calc() ">calculate</button>
+      <div>
+        <h1 id="res"></h1>
+      </div>
+    </form>
+
+    <script src="index.js"></script>
+  </body>
+</html>
